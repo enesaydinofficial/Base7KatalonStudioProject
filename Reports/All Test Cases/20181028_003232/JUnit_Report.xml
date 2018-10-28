@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All Test Cases" time="211" tests="3" failures="0" errors="1">
+   <testsuite name="All Test Cases" tests="3" failures="0" errors="1" time="211" timestamp="2018-10-28 00:32:35" hostname="enesaydin - 192.168.1.7" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/enesaydin/Katalon Studio/base7AutomationProject/Reports/All Test Cases/20181028_003232"/>
+         <property name="logFiles" value="/Users/enesaydin/Katalon Studio/base7AutomationProject/Reports/All Test Cases/20181028_003232/execution0.log"/>
+         <property name="attachments" value="/Users/enesaydin/Katalon Studio/base7AutomationProject/Reports/All Test Cases/20181028_003232/1540675992234.png, /Users/enesaydin/Katalon Studio/base7AutomationProject/Reports/All Test Cases/20181028_003232/1540676043071.png"/>
+         <property name="hostName" value="enesaydin - 192.168.1.7"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="a18d46aafdba796dae8a0259c9d8ff2d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CalenderPage/testNewOutofOrder" classname="Test Cases/CalenderPage/testNewOutofOrder" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:32:36 - [TEST_CASE][PASSED] - Test Cases/CalenderPage/testNewOutofOrder: Test Cases/CalenderPage/testNewOutofOrder
+
+2018-10-28 00:32:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:32:37 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-28 00:32:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:32:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:32:40 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:32:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:32:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:32:48 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:32:48 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:32:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:32:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:32:48 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:32:48 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:32:48 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:32:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:32:48 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:32:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:32:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:32:51 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:32:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:32:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-28 00:32:51 - [TEST_CASE][PASSED] - Test Cases/Helper/deleteRezervation: Test Cases/Helper/deleteRezervation
+
+2018-10-28 00:32:51 - [TEST_STEP][PASSED] - Statement - Try: Unable to verify object 'Object Repository/CalenderPage/rezervation' is visible (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Enes-MacBook-Air.local', ip: 'fe80:0:0:0:10c2:32f2:6b9:4db8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kr/9v7lxhbx5y7...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 1d3e10887d3979e7d3ee1cafb0ca05a8
+*** Element info: {Using=xpath, value=})
+
+2018-10-28 00:32:51 - [TEST_STEP][PASSED] - Statement - While (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CalenderPage/rezervation))): Unable to verify object 'Object Repository/CalenderPage/rezervation' is visible (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Enes-MacBook-Air.local', ip: 'fe80:0:0:0:10c2:32f2:6b9:4db8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kr/9v7lxhbx5y7...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 1d3e10887d3979e7d3ee1cafb0ca05a8
+*** Element info: {Using=xpath, value=})
+
+2018-10-28 00:32:51 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervation' is visible
+
+2018-10-28 00:32:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervation' is clicked on
+
+2018-10-28 00:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervation' is clicked on
+
+2018-10-28 00:32:52 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/rezervationDetails' is clickable
+
+2018-10-28 00:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationDetails' is clickable
+
+2018-10-28 00:32:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervationDetails' is clicked on
+
+2018-10-28 00:32:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervationDetails' is clicked on
+
+2018-10-28 00:32:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-28 00:32:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-28 00:32:55 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/deleteButton' is clickable
+
+2018-10-28 00:32:55 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/deleteButton' is clickable
+
+2018-10-28 00:32:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/deleteButton' is clicked on
+
+2018-10-28 00:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/deleteButton' is clicked on
+
+2018-10-28 00:32:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-28 00:32:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-28 00:32:59 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/deleteRezervationYesButton' is clickable
+
+2018-10-28 00:32:59 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/deleteRezervationYesButton' is clickable
+
+2018-10-28 00:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/deleteRezervationYesButton' is clicked on
+
+2018-10-28 00:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/deleteRezervationYesButton' is clicked on
+
+2018-10-28 00:32:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-28 00:33:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-28 00:33:02 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/saveButton' is clickable
+
+2018-10-28 00:33:02 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/saveButton' is clickable
+
+2018-10-28 00:33:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/saveButton' is clicked on
+
+2018-10-28 00:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/saveButton' is clicked on
+
+2018-10-28 00:33:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-10-28 00:33:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-10-28 00:33:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/calendar' successfully
+
+2018-10-28 00:33:04 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/calendar' successfully
+
+2018-10-28 00:33:04 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-28 00:33:04 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-28 00:33:04 - [TEST_STEP][FAILED] - refresh: Unable to verify object 'Object Repository/CalenderPage/rezervation' is visible (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Enes-MacBook-Air.local', ip: 'fe80:0:0:0:10c2:32f2:6b9:4db8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kr/9v7lxhbx5y7...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 1d3e10887d3979e7d3ee1cafb0ca05a8
+*** Element info: {Using=xpath, value=})
+
+2018-10-28 00:33:06 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-10-28 00:33:12 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/CalenderPage/rezervation' is visible (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Enes-MacBook-Air.local', ip: 'fe80:0:0:0:10c2:32f2:6b9:4db8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kr/9v7lxhbx5y7...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 1d3e10887d3979e7d3ee1cafb0ca05a8
+*** Element info: {Using=xpath, value=})
+[[ATTACHMENT|/Users/enesaydin/Katalon Studio/base7AutomationProject/Reports/All Test Cases/20181028_003232/1540675992234.png]]
+
+2018-10-28 00:33:12 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-28 00:33:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-28 00:33:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/newOutoOfOrder' successfully
+
+2018-10-28 00:33:12 - [TEST_CASE][PASSED] - Test Cases/Helper/newOutoOfOrder: Test Cases/Helper/newOutoOfOrder
+
+2018-10-28 00:33:12 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newOutofOrderButton' is clickable
+
+2018-10-28 00:33:12 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newOutofOrderButton' is clickable
+
+2018-10-28 00:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/newOutofOrderButton' is clicked on
+
+2018-10-28 00:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/newOutofOrderButton' is clicked on
+
+2018-10-28 00:33:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-28 00:33:13 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-28 00:33:13 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-28 00:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-28 00:33:13 - [TEST_STEP][PASSED] - Statement - x = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getElementLeftPosition(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CalenderPage/1stFloor103), STOP_ON_FAILURE): Left position of element 'Object Repository/CalenderPage/1stFloor103' is '226'
+
+2018-10-28 00:33:13 - [MESSAGE][PASSED] - Left position of element 'Object Repository/CalenderPage/1stFloor103' is '226'
+
+2018-10-28 00:33:13 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=376 and y=326
+
+2018-10-28 00:33:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=376 and y=326
+
+2018-10-28 00:33:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/saveButton' is clickable
+
+2018-10-28 00:33:14 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/saveButton' is clickable
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - Statement - For ([i = 3, i < 8, (i++)]): null
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - Statement - element = driver.findElement(org.openqa.selenium.By.xpath("((//div[@class='mtop'])[1]//label)[" + i + "]/input")).click(): null
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/saveButton' is clicked on
+
+2018-10-28 00:33:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/saveButton' is clicked on
+
+2018-10-28 00:33:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-28 00:33:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-28 00:33:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/newOutoOfOrder' successfully
+
+2018-10-28 00:33:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/deleteOutoOfOrder' successfully
+
+2018-10-28 00:33:19 - [TEST_CASE][PASSED] - Test Cases/Helper/deleteOutoOfOrder: Test Cases/Helper/deleteOutoOfOrder
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - Statement - calEvents = driver.findElements(org.openqa.selenium.By.xpath("//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title']")): null
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - Statement - While (true): null
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:20 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:20 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:21 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-28 00:33:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-28 00:33:26 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-28 00:33:26 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:26 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:26 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:26 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:26 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-28 00:33:26 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:27 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:27 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:28 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:28 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-28 00:33:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-28 00:33:33 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-28 00:33:33 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:33 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:33 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:33 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:33 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-28 00:33:33 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:34 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:34 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:34 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-28 00:33:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-28 00:33:39 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-28 00:33:39 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:39 - [TEST_STEP][PASSED] - Statement - calEvent = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:39 - [TEST_STEP][PASSED] - basePackage.BaseClass.waitElementClickable: basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:39 - [MESSAGE][PASSED] - basePackage.BaseClass.waitElementClickable is PASSED
+
+2018-10-28 00:33:39 - [TEST_STEP][PASSED] - Statement - calEvent.click(): null
+
+2018-10-28 00:33:39 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:40 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/eventDeleteButton' is clickable
+
+2018-10-28 00:33:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/eventDeleteButton' is clicked on
+
+2018-10-28 00:33:40 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:41 - [MESSAGE][PASSED] - Object 'Object Repository/MainObjects/SuccessNotification' is clickable
+
+2018-10-28 00:33:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/MainObjects/SuccessNotification' are matched.
+
+2018-10-28 00:33:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/MainObjects/SuccessNotification' is clicked on
+
+2018-10-28 00:33:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-28 00:33:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-28 00:33:46 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-10-28 00:33:46 - [TEST_STEP][PASSED] - Statement - calEvent2 = driver.findElement(org.openqa.selenium.By.xpath("(//div[contains(@class, 'cal-unavail')]/div[@class='cal-event-title'])[1]")): null
+
+2018-10-28 00:33:46 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-28 00:33:46 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2018-10-28 00:33:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/deleteOutoOfOrder' successfully
+
+2018-10-28 00:33:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-28 00:33:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CalenderPage/testCalenderSplit" classname="Test Cases/CalenderPage/testCalenderSplit" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:33:46 - [TEST_CASE][PASSED] - Test Cases/CalenderPage/testCalenderSplit: Test Cases/CalenderPage/testCalenderSplit
+
+2018-10-28 00:33:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:33:46 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-28 00:33:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:33:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:33:48 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:33:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:33:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:33:54 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:33:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:33:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:33:54 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:33:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:33:54 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:33:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:33:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:33:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:33:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:33:57 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:33:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:33:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-28 00:33:57 - [TEST_CASE][PASSED] - Test Cases/Helper/deleteRezervation: Test Cases/Helper/deleteRezervation
+
+2018-10-28 00:33:57 - [TEST_STEP][FAILED] - Statement - Try: Unable to verify object 'Object Repository/CalenderPage/rezervation' is visible (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Enes-MacBook-Air.local', ip: 'fe80:0:0:0:10c2:32f2:6b9:4db8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kr/9v7lxhbx5y7...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5d266f4c13451b4845c0268d3d3358c5
+*** Element info: {Using=xpath, value=})
+
+2018-10-28 00:33:57 - [TEST_STEP][FAILED] - Statement - While (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CalenderPage/rezervation))): Unable to verify object 'Object Repository/CalenderPage/rezervation' is visible (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Enes-MacBook-Air.local', ip: 'fe80:0:0:0:10c2:32f2:6b9:4db8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kr/9v7lxhbx5y7...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5d266f4c13451b4845c0268d3d3358c5
+*** Element info: {Using=xpath, value=})
+
+2018-10-28 00:34:03 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/CalenderPage/rezervation' is visible (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Enes-MacBook-Air.local', ip: 'fe80:0:0:0:10c2:32f2:6b9:4db8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/kr/9v7lxhbx5y7...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.77, webStorageEnabled: true}
+Session ID: 5d266f4c13451b4845c0268d3d3358c5
+*** Element info: {Using=xpath, value=})
+[[ATTACHMENT|/Users/enesaydin/Katalon Studio/base7AutomationProject/Reports/All Test Cases/20181028_003232/1540676043071.png]]
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2018-10-28 00:34:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/deleteRezervation' successfully
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/NewRezervation' successfully
+
+2018-10-28 00:34:03 - [TEST_CASE][PASSED] - Test Cases/Helper/NewRezervation: Test Cases/Helper/NewRezervation
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-28 00:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is clickable
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/newRezervationButton' is clicked on
+
+2018-10-28 00:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/newRezervationButton' is clicked on
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-28 00:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/1stFloor103' is clickable
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-28 00:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is double clicked on
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - Statement - x = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getElementLeftPosition(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(CalenderPage/1stFloor103), STOP_ON_FAILURE): Left position of element 'Object Repository/CalenderPage/1stFloor103' is '226'
+
+2018-10-28 00:34:03 - [MESSAGE][PASSED] - Left position of element 'Object Repository/CalenderPage/1stFloor103' is '226'
+
+2018-10-28 00:34:03 - [TEST_STEP][PASSED] - clickOffset: Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=376 and y=326
+
+2018-10-28 00:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/1stFloor103' is clicked on using offset x=376 and y=326
+
+2018-10-28 00:34:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' is visible
+
+2018-10-28 00:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' is visible
+
+2018-10-28 00:34:04 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Mrs' are selected in object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' 
+
+2018-10-28 00:34:04 - [MESSAGE][PASSED] - All options with label 'Mrs' are selected in object 'Object Repository/CalenderPage/rezervationPopup/titleSelect' 
+
+2018-10-28 00:34:04 - [TEST_STEP][PASSED] - sendKeys: Keys '05348521123' sent to object: 'Object Repository/CalenderPage/rezervationPopup/cellNoInput'
+
+2018-10-28 00:34:04 - [MESSAGE][PASSED] - Keys '05348521123' sent to object: 'Object Repository/CalenderPage/rezervationPopup/cellNoInput'
+
+2018-10-28 00:34:04 - [TEST_STEP][PASSED] - sendKeys: Keys 'Test Company' sent to object: 'Object Repository/CalenderPage/rezervationPopup/companyInput'
+
+2018-10-28 00:34:05 - [MESSAGE][PASSED] - Keys 'Test Company' sent to object: 'Object Repository/CalenderPage/rezervationPopup/companyInput'
+
+2018-10-28 00:34:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/firstNameInput'
+
+2018-10-28 00:34:05 - [MESSAGE][PASSED] - Keys 'test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/firstNameInput'
+
+2018-10-28 00:34:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'user' sent to object: 'Object Repository/CalenderPage/rezervationPopup/lastNameInput'
+
+2018-10-28 00:34:05 - [MESSAGE][PASSED] - Keys 'user' sent to object: 'Object Repository/CalenderPage/rezervationPopup/lastNameInput'
+
+2018-10-28 00:34:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'testuser@mail.com' sent to object: 'Object Repository/CalenderPage/rezervationPopup/emailInput'
+
+2018-10-28 00:34:05 - [MESSAGE][PASSED] - Keys 'testuser@mail.com' sent to object: 'Object Repository/CalenderPage/rezervationPopup/emailInput'
+
+2018-10-28 00:34:05 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Turkey (TR)' are selected in object 'Object Repository/CalenderPage/rezervationPopup/countrySelect' 
+
+2018-10-28 00:34:05 - [MESSAGE][PASSED] - All options with label 'Turkey (TR)' are selected in object 'Object Repository/CalenderPage/rezervationPopup/countrySelect' 
+
+2018-10-28 00:34:05 - [TEST_STEP][PASSED] - sendKeys: Keys 'test test test test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/commentTextArea'
+
+2018-10-28 00:34:05 - [MESSAGE][PASSED] - Keys 'test test test test' sent to object: 'Object Repository/CalenderPage/rezervationPopup/commentTextArea'
+
+2018-10-28 00:34:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervationPopup/okButton1' is clicked on
+
+2018-10-28 00:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervationPopup/okButton1' is clicked on
+
+2018-10-28 00:34:06 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clickable
+
+2018-10-28 00:34:06 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clickable
+
+2018-10-28 00:34:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clicked on
+
+2018-10-28 00:34:06 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervationPopup/okButton2' is clicked on
+
+2018-10-28 00:34:06 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/closeButton' is clickable
+
+2018-10-28 00:34:07 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/closeButton' is clickable
+
+2018-10-28 00:34:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/CalenderPage/reservationSuccessfullPopup' are matched.
+
+2018-10-28 00:34:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/CalenderPage/reservationSuccessfullPopup' are matched.
+
+2018-10-28 00:34:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/closeButton' is clicked on
+
+2018-10-28 00:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/closeButton' is clicked on
+
+2018-10-28 00:34:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/NewRezervation' successfully
+
+2018-10-28 00:34:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/splitRezervation' successfully
+
+2018-10-28 00:34:08 - [TEST_CASE][PASSED] - Test Cases/Helper/splitRezervation: Test Cases/Helper/splitRezervation
+
+2018-10-28 00:34:08 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/splitButton' is clickable
+
+2018-10-28 00:34:08 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/splitButton' is clickable
+
+2018-10-28 00:34:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/splitButton' is clicked on
+
+2018-10-28 00:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/splitButton' is clicked on
+
+2018-10-28 00:34:08 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/rezervation' is clickable
+
+2018-10-28 00:34:08 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervation' is clickable
+
+2018-10-28 00:34:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/rezervation' is clicked on
+
+2018-10-28 00:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/rezervation' is clicked on
+
+2018-10-28 00:34:08 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/CalenderPage/seperator' is clickable
+
+2018-10-28 00:34:09 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/seperator' is clickable
+
+2018-10-28 00:34:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CalenderPage/seperator' is clicked on
+
+2018-10-28 00:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CalenderPage/seperator' is clicked on
+
+2018-10-28 00:34:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/splitRezervation' successfully
+
+2018-10-28 00:34:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/rezervation' is present
+
+2018-10-28 00:34:09 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervation' is present
+
+2018-10-28 00:34:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/rezervationSplit' is present
+
+2018-10-28 00:34:10 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/rezervationSplit' is present
+
+2018-10-28 00:34:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-28 00:34:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rezervations/testRezervationSend" classname="Test Cases/Rezervations/testRezervationSend" status="PASSED">
+         <system-out><![CDATA[2018-10-28 00:34:10 - [TEST_CASE][PASSED] - Test Cases/Rezervations/testRezervationSend: Test Cases/Rezervations/testRezervationSend
+
+2018-10-28 00:34:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:34:11 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-28 00:34:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:34:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:34:12 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:34:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:34:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:34:21 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:34:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:34:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:34:21 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:34:21 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:34:21 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:34:21 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:34:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:34:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:34:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:34:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:34:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:34:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-28 00:34:26 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-28 00:34:26 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-28 00:34:26 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-28 00:34:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Helper/thankYouMailSend' successfully
+
+2018-10-28 00:34:26 - [TEST_CASE][PASSED] - Test Cases/Helper/thankYouMailSend: Test Cases/Helper/thankYouMailSend
+
+2018-10-28 00:34:27 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/sendButton' is clickable
+
+2018-10-28 00:34:32 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/sendButton' is clickable
+
+2018-10-28 00:34:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/sendButton' is clicked on
+
+2018-10-28 00:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/sendButton' is clicked on
+
+2018-10-28 00:34:32 - [TEST_STEP][PASSED] - switchToWindowIndex: Switched to window with index: '1'
+
+2018-10-28 00:34:32 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2018-10-28 00:34:32 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/new-mail/thankYouButton' is clickable
+
+2018-10-28 00:34:33 - [MESSAGE][PASSED] - Object 'Object Repository/new-mail/thankYouButton' is clickable
+
+2018-10-28 00:34:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/new-mail/thankYouButton' is clicked on
+
+2018-10-28 00:34:35 - [MESSAGE][PASSED] - Object: 'Object Repository/new-mail/thankYouButton' is clicked on
+
+2018-10-28 00:34:35 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:34:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:34:35 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/new-mail/sendButton' is clickable
+
+2018-10-28 00:34:35 - [MESSAGE][PASSED] - Object 'Object Repository/new-mail/sendButton' is clickable
+
+2018-10-28 00:34:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/new-mail/sendButton' is clicked on
+
+2018-10-28 00:34:39 - [MESSAGE][PASSED] - Object: 'Object Repository/new-mail/sendButton' is clicked on
+
+2018-10-28 00:34:39 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/new-mail/sentSuccessfullBox' is clickable
+
+2018-10-28 00:34:39 - [MESSAGE][PASSED] - Object 'Object Repository/new-mail/sentSuccessfullBox' is clickable
+
+2018-10-28 00:34:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/new-mail/sentSuccessfullBox' are matched.
+
+2018-10-28 00:34:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/new-mail/sentSuccessfullBox' are matched.
+
+2018-10-28 00:34:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Helper/thankYouMailSend' successfully
+
+2018-10-28 00:34:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-28 00:34:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rezervations/testQuickInvoice" classname="Test Cases/Rezervations/testQuickInvoice" status="ERROR">
+         <error type="ERROR" message="Test Cases/Rezervations/testQuickInvoice FAILED because (of) (Stack trace: java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$20.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540675042225.run(Script1540675042225.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540675004271.run(Script1540675004271.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540675952376.run(TempTestSuite1540675952376.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-28 00:34:39 - [TEST_CASE][ERROR] - Test Cases/Rezervations/testQuickInvoice: Test Cases/Rezervations/testQuickInvoice FAILED because (of) (Stack trace: java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$20.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540675042225.run(Script1540675042225.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540675004271.run(Script1540675004271.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540675952376.run(TempTestSuite1540675952376.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-28 00:34:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:34:39 - [TEST_CASE][PASSED] - Test Cases/Base7Login/Login: Test Cases/Base7Login/Login
+
+2018-10-28 00:34:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-28 00:34:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-28 00:34:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:34:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:34:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:34:46 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/' successfully
+
+2018-10-28 00:34:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:34:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/usernameinput' is visible
+
+2018-10-28 00:34:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:34:46 - [MESSAGE][PASSED] - Keys 'admin' sent to object: 'Object Repository/LoginPage/usernameinput'
+
+2018-10-28 00:34:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:34:47 - [MESSAGE][PASSED] - Keys 'admin123' sent to object: 'Object Repository/LoginPage/passwordinput'
+
+2018-10-28 00:34:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/signinbutton' is clicked on
+
+2018-10-28 00:34:47 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-28 00:34:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-28 00:34:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:34:50 - [MESSAGE][PASSED] - Object 'Object Repository/CalenderPage/newRezervationButton' is present
+
+2018-10-28 00:34:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base7Login/Login' successfully
+
+2018-10-28 00:34:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-28 00:34:50 - [MESSAGE][PASSED] - Navigate to 'https://waccamaw.base7.io/reservation/1' successfully
+
+2018-10-28 00:34:50 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-10-28 00:34:50 - [MESSAGE][PASSED] - Alert accepted
+
+2018-10-28 00:34:50 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Helper/createQuickInvoice' (Root cause: Call Test Case 'Test Cases/Helper/createQuickInvoice' failed because of error(s))
+
+2018-10-28 00:34:50 - [TEST_CASE][ERROR] - Test Cases/Helper/createQuickInvoice: Test Cases/Helper/createQuickInvoice FAILED because (of) (Stack trace: java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$20.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540675042225.run(Script1540675042225.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540675004271.run(Script1540675004271.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540675952376.run(TempTestSuite1540675952376.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-28 00:34:51 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Rezervations/quickInvoiceButton' is clickable
+
+2018-10-28 00:34:54 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/quickInvoiceButton' is clickable
+
+2018-10-28 00:34:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/quickInvoiceButton' is clicked on
+
+2018-10-28 00:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/quickInvoiceButton' is clicked on
+
+2018-10-28 00:34:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Rezervations/QuickInvoice/commentTextArea' is visible
+
+2018-10-28 00:34:55 - [MESSAGE][PASSED] - Object 'Object Repository/Rezervations/QuickInvoice/commentTextArea' is visible
+
+2018-10-28 00:34:55 - [TEST_STEP][PASSED] - sendKeys: Keys 'Test Comment' sent to object: 'Object Repository/Rezervations/QuickInvoice/commentTextArea'
+
+2018-10-28 00:34:55 - [MESSAGE][PASSED] - Keys 'Test Comment' sent to object: 'Object Repository/Rezervations/QuickInvoice/commentTextArea'
+
+2018-10-28 00:34:55 - [TEST_STEP][PASSED] - sendKeys: Keys '123456' sent to object: 'Object Repository/Rezervations/QuickInvoice/recipientTaxNumberInput'
+
+2018-10-28 00:34:55 - [MESSAGE][PASSED] - Keys '123456' sent to object: 'Object Repository/Rezervations/QuickInvoice/recipientTaxNumberInput'
+
+2018-10-28 00:34:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rezervations/QuickInvoice/createInvoiceButton' is clicked on
+
+2018-10-28 00:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rezervations/QuickInvoice/createInvoiceButton' is clicked on
+
+2018-10-28 00:34:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-28 00:34:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-28 00:34:58 - [TEST_STEP][PASSED] - closeWindowIndex: Closing window with index 1
+
+2018-10-28 00:36:07 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Helper/createQuickInvoice' (Root cause: Call Test Case 'Test Cases/Helper/createQuickInvoice' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2018-10-28 00:34:39 - [TEST_CASE][ERROR] - Test Cases/Rezervations/testQuickInvoice: Test Cases/Rezervations/testQuickInvoice FAILED because (of) (Stack trace: java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$20.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540675042225.run(Script1540675042225.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540675004271.run(Script1540675004271.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540675952376.run(TempTestSuite1540675952376.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-28 00:32:35 - [TEST_SUITE][ERROR] - All Test Cases: Test Cases/Rezervations/testQuickInvoice FAILED because (of) (Stack trace: java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$20.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540675042225.run(Script1540675042225.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540675004271.run(Script1540675004271.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540675952376.run(TempTestSuite1540675952376.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-28 00:32:35 - [TEST_SUITE][ERROR] - All Test Cases: Test Cases/Rezervations/testQuickInvoice FAILED because (of) (Stack trace: java.lang.RuntimeException: Unexpected result for screenshot command: null
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:351)
+	at com.kms.katalon.core.webui.helper.screenshot.WebUIScreenCaptor.take(WebUIScreenCaptor.java:26)
+	at com.kms.katalon.core.helper.screenshot.ScreenCaptor.takeScreenshotAndGetAttributes(ScreenCaptor.java:39)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$20.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1540675042225.run(Script1540675042225.groovy:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:99)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at groovy.lang.MetaClassImpl.invokeStaticMethod(MetaClassImpl.java:1469)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaClassSite.call(StaticMetaClassSite.java:53)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1540675004271.run(Script1540675004271.groovy:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540675952376.run(TempTestSuite1540675952376.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>
