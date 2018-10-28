@@ -12,40 +12,62 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.By as By
 
 try {
-    while (WebUI.verifyElementVisible(findTestObject('CalenderPage/rezervation'))) {
-        WebUI.click(findTestObject('CalenderPage/rezervation'))
+    WebDriver driver = DriverFactory.getWebDriver()
 
-        WebUI.waitForElementClickable(findTestObject('CalenderPage/rezervationDetails'), GlobalVariable.waitElementDuration)
+    while (true) {
+        By element = By.xpath('(//div[contains(@class, \'cal-event\')]//div[contains(@id, \'content\') and not(contains(@title, \'ZAPPELLA Andrew\'))])[1]')
 
-        WebUI.click(findTestObject('CalenderPage/rezervationDetails'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.delay(GlobalVariable.waitElementDuration)
 
-        WebUI.delay(3)
+        if (driver.findElement(element).isDisplayed()) {
+            CustomKeywords.'basePackage.BaseClass.waitElementClickable'(driver.findElement(element), GlobalVariable.waitElementDuration)
 
-        WebUI.waitForElementClickable(findTestObject('Rezervations/deleteButton'), GlobalVariable.waitElementDuration)
+            driver.findElement(element).click()
 
-        WebUI.click(findTestObject('Rezervations/deleteButton'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.waitForElementClickable(findTestObject('CalenderPage/rezervationDetails'), GlobalVariable.waitElementDuration)
 
-        WebUI.delay(3)
+            WebUI.click(findTestObject('CalenderPage/rezervationDetails'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.waitForElementClickable(findTestObject('Rezervations/deleteRezervationYesButton'), GlobalVariable.waitElementDuration)
+            WebUI.delay(3)
 
-        WebUI.click(findTestObject('Rezervations/deleteRezervationYesButton'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.waitForElementClickable(findTestObject('Rezervations/deleteButton'), GlobalVariable.waitElementDuration)
 
-        WebUI.delay(3)
+            WebUI.click(findTestObject('Rezervations/deleteButton'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.waitForElementClickable(findTestObject('Rezervations/saveButton'), GlobalVariable.waitElementDuration)
+            WebUI.delay(3)
 
-        WebUI.click(findTestObject('Rezervations/saveButton'), FailureHandling.STOP_ON_FAILURE)
+            WebUI.waitForElementClickable(findTestObject('Rezervations/deleteRezervationYesButton'), GlobalVariable.waitElementDuration)
 
-        WebUI.delay(2)
+            WebUI.click(findTestObject('Rezervations/deleteRezervationYesButton'), FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.navigateToUrl(findTestData('Links').getValue(2, 2))
+            WebUI.delay(3)
 
-        WebUI.acceptAlert()
+            WebUI.waitForElementClickable(findTestObject('Rezervations/saveButton'), GlobalVariable.waitElementDuration)
 
-        WebUI.refresh()
+            WebUI.click(findTestObject('Rezervations/saveButton'), FailureHandling.STOP_ON_FAILURE)
+
+            WebUI.delay(2)
+
+            WebUI.navigateToUrl(findTestData('Links').getValue(2, 2))
+
+            WebUI.acceptAlert()
+
+            WebUI.refresh()
+        } else {
+            WebUI.navigateToUrl(findTestData('Links').getValue(2, 2))
+
+            WebUI.acceptAlert()
+
+            WebUI.refresh()
+
+            break
+        }
     }
 }
 catch (Exception e) {

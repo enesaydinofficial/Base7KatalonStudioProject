@@ -17,6 +17,8 @@ WebUI.callTestCase(findTestCase('Base7Login/Login'), [:], FailureHandling.STOP_O
 
 WebUI.callTestCase(findTestCase('Helper/deleteRezervation'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Helper/deleteOutoOfOrder'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Helper/newOutoOfOrder'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Helper/deleteOutoOfOrder'), [:], FailureHandling.STOP_ON_FAILURE)

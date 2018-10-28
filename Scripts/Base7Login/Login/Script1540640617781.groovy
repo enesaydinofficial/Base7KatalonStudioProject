@@ -29,5 +29,9 @@ WebUI.click(findTestObject('LoginPage/signinbutton'), FailureHandling.STOP_ON_FA
 
 WebUI.waitForPageLoad(GlobalVariable.waitPageLoad)
 
+WebUI.delay(5)
+
+WebUI.waitForElementClickable(findTestObject('CalenderPage/newRezervationButton'), GlobalVariable.waitElementDuration)
+
 WebUI.verifyElementPresent(findTestObject('CalenderPage/newRezervationButton'), GlobalVariable.waitElementDuration)
 
